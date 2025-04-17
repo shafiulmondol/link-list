@@ -68,24 +68,23 @@ This project uses a **menu-driven UI** built with a `popup` class to perform all
 ---
 
 ## 📁 Project Structure
-📦 link-list/
-├── main.cpp              # Entry point
-├── popup class           # Handles all menu-related UI
-├── list struct           # Defines nodes
-├── Global head           # Points to start of list
-└── Functions:
-    ├── createList()
-    ├── display()
-    ├── insertAtFirst()
-    ├── insertAtEnd()
-    ├── insertAnyPosition()
-    ├── deleteAtFirst()
-    ├── deleteAtEnd()
-    ├── deleteAtPosition()
-    └── searchByValue(), searchByPosition(), search()
 
+📦 **link-list/**  
+📷 _Visual overview of the project structure:_
+
+![Project Structure Diagram](assets/linked-list-structure-diagram.png)
+
+> _Includes: `main.cpp`, `popup class`, `list struct`, global `head`, and all list operation functions._
 
 ---
+
+## 📸 Terminal Preview
+
+```text
+   Your creation operation menu       
+ 1. Create a list
+ 2. Exit
+
 
 ## 📸 Terminal Preview
 
